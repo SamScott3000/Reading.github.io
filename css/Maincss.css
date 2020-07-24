@@ -24,6 +24,14 @@ background-color:black ;
 height: 100vh;
 }
 
+@font-face {
+font-family: "integral CF";
+src: url("Reading.github.io/Fonts/");
+src: url("Reading.github.io/Fonts/") format("woff"),
+url("Reading.github.io/Fonts/") format("opentype"),
+url("Reading.github.io/Fonts/") format("svg");
+}
+
 
 .bigCon{
 height: 100vh;
