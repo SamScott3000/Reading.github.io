@@ -1,0 +1,183 @@
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+html {
+  margin-top: -8px;
+  background-color: white;
+}
+
+body {
+background-color: white;
+height: 96vh;
+}
+
+.bigCon{
+height: 100vh;
+margin: 0px;
+}
+
+.demo {
+    display: table;
+    width: 100%;
+    table-layout:fixed;
+    height:40px;
+    overflow:;
+
+}
+
+.grid {
+ width:100%;
+ display: table-cell;
+ table-layout: fixed;
+ background-color: white;
+
+
+}
+
+.vr {
+
+	  border-left: 1px solid white;
+      border-right:1px solid white;
+  height: 40px;
+
+
+}
+
+.vrL {
+	  border-left: 2px solid white;
+      border-right:1px solid white;
+  height: 40px;
+
+}
+
+.vrR {
+	  border-left: 1px solid white;
+    border-right:2px solid white;
+    height: 40px;
+
+}
+
+.demo span {
+    display: table-cell;
+    width: 100%;
+    overflow: ;
+}
+
+.head {
+  position: fixed;
+  top: 1%;
+  width: 90vw;
+  z-index: 1;
+  mix-blend-mode: difference;
+
+}
+
+.foot {
+  position: fixed;
+  bottom: 1%;
+  width: 90vw;
+  z-index: 1;
+  mix-blend-mode: difference;
+
+}
+
+.total {
+  height: 92vh;
+  width:90vw;
+  position: absolute;
+  left: 5%;
+  right: 0;
+
+
+}
+
+.colCon {
+
+ word-wrap: anywhere;
+ display: table;
+ width: 100%;
+ table-layout: fixed;
+ height:96vh;
+ text-align: center;
+}
+
+
+.col1 {
+  display: table-cell;
+  font-size: 46px;
+}
+
+.col2 {
+  display: table-cell;
+  font-size: 46px;
+
+}
+
+.col3 {
+  display: table-cell;
+  font-size: 56px;
+}
+
+.col4 {
+  display: table-cell;
+  font-size: 46px;
+}
+
+.col1div {
+  padding-right:1px;
+  padding-left: 1px;
+  width:22.3%;
+  position:fixed;
+  font-size: 120px;
+  padding-top:50px;
+  height: 94vh;
+  overflow: scroll;
+  font-family: integral CF;
+  line-height: 60%;
+  text-align: right;
+
+}
+.col2div {
+  padding-right:1px;
+  padding-left: 1px;
+  width:22.3%;
+  position:fixed;
+  font-size: 100px;
+  font-family: ortica;
+  font-style: ;
+  font-weight: bold;
+  padding-top:50px;
+  height: 94vh;
+  overflow: scroll;
+  text-align: left;
+}
+.col3div {
+  padding-right:1px;
+  padding-left: 1px;
+  width:22.3%;
+  position:fixed;
+  font-size: 500px;
+  font-family: ortica;
+  font-style: ;
+  font-weight: ;
+  padding-top:50px;
+  height: 94vh;
+  overflow-y: scroll;
+  overflow-x: visible;
+  text-align: left;
+
+
+}
+.col4div {
+  padding-right:1px;
+  padding-left: 1px;
+  width:22.3%;
+  position:fixed;
+  font-size: 18px;
+  padding-top:50px;
+  height: 94vh;
+  overflow: scroll;
+
+}

@@ -1,0 +1,207 @@
+/* child to have blend parent with background or text */
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+html {
+  background: white;
+  margin-top: 0px;
+}
+
+body {
+  background: white;
+}
+
+
+.bigCon{
+height: 100vh;
+margin: 0px;
+}
+
+.demo {
+    display: table;
+    width: 100%;
+    table-layout:fixed;
+    height:40px;
+    overflow:;
+
+}
+
+.grid {
+ width:100%;
+ display: table-cell;
+ table-layout: fixed;
+ background-color: white;
+
+
+}
+
+.vr {
+
+	  border-left: 1px solid white;
+      border-right:1px solid white;
+  height: 40px;
+
+
+}
+
+.vrL {
+	  border-left: 2px solid white;
+      border-right:1px solid white;
+  height: 40px;
+
+}
+
+.vrR {
+	  border-left:1px solid white;
+    border-right:2px solid white;
+    height: 40px;
+
+}
+
+
+
+.demo span {
+    display: table-cell;
+    width: 100%;
+    overflow: ;
+}
+
+.head {
+  position: fixed;
+  top: 1%;
+  width: 90vw;
+  z-index: 1;
+  mix-blend-mode: difference;
+
+}
+
+.foot {
+  position: fixed;
+  bottom: 1%;
+  width: 90vw;
+  z-index: 1;
+  mix-blend-mode: difference;
+
+}
+
+.total {
+  height: 92vh;
+  width:90vw;
+  position: absolute;
+  left: 5%;
+  right: 0;
+
+}
+
+.colCon {
+ word-wrap: anywhere;
+ display: table;
+ width: 100%;
+ table-layout: fixed;
+ height:96vh;
+ text-align: center;
+}
+
+
+.col1 {
+  display: table-cell;
+  font-size: 46px;
+  mix-blend-mode: difference;
+
+}
+
+.col2 {
+  display: table-cell;
+  font-size: 46px;
+  mix-blend-mode: difference;
+
+}
+
+.col3 {
+  display: table-cell;
+  font-size: 56px;
+  mix-blend-mode: difference;
+
+}
+
+.col4 {
+  display: table-cell;
+  font-size: 46px;
+  mix-blend-mode: difference;
+
+}
+
+.col1div {
+  color: purple;
+  padding-right:1px;
+  padding-left: 1px;
+  width:89.9%;
+  position:fixed;
+  font-size: 400px;
+  height: calc(100vh - 15px);
+  padding-top:15px;
+  overflow: scroll;
+  color:orange;
+  font-family: IntegralCF-HeavyOblique;
+  line-height: 60%;
+  text-align: center;
+
+
+
+
+}
+
+.col2div {
+  color: white;
+  padding-right:1px;
+  padding-left: 1%;
+  width:66%;
+  position:fixed;
+  font-size: 100px;
+  font-family: IntegralCF-BoldOblique;
+  padding-top:15px;
+  height: calc(100vh - 15px);
+  overflow: scroll;
+  text-align: left;
+
+
+
+
+
+}
+.col3div {
+  color: red;
+  padding-right:1px;
+  padding-left: 1px;
+  width: 45%;
+  position:fixed;
+  font-size: 40px;
+  font-family: IntegralCF-DemiBoldOblique;
+  font-style: bold;
+  padding-top:50px;
+  height: 94vh;
+  overflow: scroll;
+  text-align: left;
+
+
+
+}
+.col4div {
+  color: green;
+  padding-right:1px;
+  padding-left: 1px;
+  width:22.3%;
+  font-family: IntegralCF-RegularOblique;
+  position:fixed;
+  font-size: 18px;
+  padding-top:50px;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+
+
+
+
+}

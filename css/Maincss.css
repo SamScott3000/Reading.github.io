@@ -1,0 +1,300 @@
+/* not sure about the no height top/bottom, to remove turn col div heights to 92 from 94 and remove margin top
+*/
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+html {
+  height: 100vh;
+  background-color: black;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+}
+
+body {
+background-color:black ;
+height: 100vh;
+}
+
+
+.bigCon{
+height: 100vh;
+margin: 0px;
+}
+
+.demo {
+    display: table;
+    width: 100%;
+    table-layout:fixed;
+    height:40px;
+    overflow:;
+
+}
+
+.grid {
+ width:100%;
+ display: table-cell;
+ table-layout: fixed;
+
+
+}
+
+.vr {
+
+	  border-left: 1px solid white;
+      border-right:1px solid white;
+  height: 40px;
+
+
+}
+
+.vrL {
+	  border-left: 2px solid white;
+      border-right:1px solid white;
+  height: 40px;
+
+}
+
+.vrR {
+	  border-left: 1px solid white;
+    border-right:2px solid white;
+    height: 40px;
+
+
+}
+
+
+.demo span {
+    display: table-cell;
+    width: 100%;
+    overflow: ;
+
+
+
+}
+
+.head {
+  position: fixed;
+  top: 1%;
+  width: 90vw;
+  z-index: 1;
+  mix-blend-mode: difference;
+}
+
+
+.foot {
+  position: fixed;
+  bottom: 1%;
+  width: 90vw;
+  z-index: 1;
+  mix-blend-mode: difference;
+
+}
+
+.total {
+  height: 100vh;
+  width:90vw;
+  position: absolute;
+  left: 5%;
+  right: 0;
+
+
+}
+
+.colCon {
+
+ word-wrap: anywhere;
+ display: table;
+ width: 100%;
+ table-layout: fixed;
+ height:96vh;
+ text-align: center;
+}
+
+.col1 {
+  display: table-cell;
+  width:25%;
+  bottom:0;
+  top:45vh;
+  font-size: 46px;
+}
+
+.col2 {
+  display: table-cell;
+  width:25%;
+  height: 92vh;
+  font-size: 46px;
+  overflow: hidden;
+}
+
+.col3 {
+  display: table-cell;
+  font-size: 56px;
+
+}
+
+.col4 {
+  display: table-cell;
+  font-size: 46px;
+}
+
+.alex {
+  width: 200%;
+
+}
+.imgs25 {
+  position: relative;
+  width:100%;
+}
+
+.col1div {
+  mix-blend-mode: difference;
+  padding-right:1px;
+  padding-left:1px;
+  width:calc(22.5% - 2px);
+  position:fixed;
+  font-size: 120px;
+  padding-top:25vh;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  font-family: integral CF;
+  line-height: 90%;
+  text-align: left;
+  color:white;
+}
+
+
+.col2div {
+  mix-blend-mode: difference;
+  padding-right:1px;
+  padding-left:1px;
+  width:calc(22.5% - 2px);
+  position:fixed;
+  font-size: 120px;
+  padding-top:40vh;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  font-family: integral CF;
+  line-height: 90%;
+  text-align: left;
+  color:white;
+}
+.col3div {
+  mix-blend-mode: difference;
+  padding-right:1px;
+  padding-left:1px;
+  width:calc(22.5% - 2px);
+  position:fixed;
+  font-size: 120px;
+  padding-top:33vh;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  font-family: integral CF;
+  line-height: 90%;
+  text-align: left;
+  color:white;
+  /* mix-blend-mode: difference; */
+
+}
+
+.col4div {
+  mix-blend-mode: difference;
+  padding-right:1px;
+  padding-left:1px;
+  width:calc(22.5% - 2px);
+  position:fixed;
+  font-size: 120px;
+  padding-top:37vh;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  font-family: integral CF;
+  line-height: 90%;
+  text-align: left;
+  color:white;
+}
+
+
+path {
+/* mix-blend-mode: difference; */
+
+}
+.image1 {
+  margin-top: ;
+  width:60vw;
+
+}
+.st0 {
+  /*background-color: transparent; */
+
+}
+
+}
+
+.random:hover {
+  position: fixed;
+  text-align: center;
+  bottom: 1%;
+  left: 30%;
+ font-size: 500px;
+ overflow: scroll;
+
+
+}
+
+.random{
+  position: fixed;
+  text-align: center;
+  bottom: 1%;
+  left: 30%;
+  font-size: 50px;
+  color: red;
+  z-index: 1;
+
+}
+
+#no1 {
+  text-align: center;
+}
+/*
+#no1:hover {
+  color: red;
+
+}*/
+
+#no2 {
+  text-align: center;
+
+}
+#no3 {
+  text-align: center;
+
+}
+#no4 {
+  text-align: center;
+
+}
+#no5 {
+  text-align: right;
+
+}
+
+#noQ {
+  text-align: center;
+}
+
+/*
+#no5:hover {
+color: red;
+}
+*/
+#noQ {
+
+}
